@@ -6,6 +6,7 @@ namespace simpleEcommerce.Controllers;
 
 public class HomeController : Controller
 {
+    //logger is implemented 
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
